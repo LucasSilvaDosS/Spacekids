@@ -1,0 +1,144 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 14px;
+}
+
+body {
+	width: 100%;
+	min-height: 100vh;
+	background-image: url('./image/back4.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}
+
+form label {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    color:#036;
+    font-weight:bold;
+    float:left;
+}
+
+.kids-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: start;
+	width: 60%;
+	height: 100vh;
+}
+
+.kids-phone {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 50%;
+}
+
+.kids-phone img {
+	height: 50rem;
+}
+
+.group {
+	display: flex;
+	justify-content: space-between; /*Vertical*/
+	align-items: center; /*Horizontal*/
+	flex-direction: column;
+	background-color: white;
+	width: 100%;
+	padding: 1.3rem 0;
+	border: 1px solid lightgray;
+}
+
+.group:nth-child(1) {
+	min-height: 19rem;
+}
+
+.spacekids-logo {
+	height: 15rem	;
+}
+
+.not-account {
+	color: rgb(160, 160, 160);
+}
+
+.link-blue {
+	color: #0095f6;
+}
+
+.get-the-app {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	padding: 1.3rem 0;
+}
+
+.download {
+	display: flex;
+	width: 100%;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 1rem;
+}
+
+.app-download {
+	height: 3rem;
+	width: 10rem;
+	background-size: cover;
+
+}
+
+.app-download:nth-child(1) {
+	background-image: url('./image/apple-button.png');
+
+}
+
+.app-download:nth-child(2) {
+	background-image: url('./image/googleplay-button.png');
+}
+
+/* Media quares */
+
+
+@media (max-width: 1024px) {
+	.kids-wrapper {
+		width: 90%;
+	}
+}
+
+@media (max-width: 650px) {
+	
+	body {
+		background-color: white;
+	}
+	.kids-wrapper {
+		width: 90%;
+	}
+
+	.kids-phone {
+		display: none;		
+	}
+
+	.group {
+		border: 1px solid transparent;	
+	}
+}
+
+label {
+    display: block;
+    font: .9rem 'Fira Sans', sans-serif;
+}
+
+input[type='submit'],
+label {
+    margin-top: 1rem;
+}
