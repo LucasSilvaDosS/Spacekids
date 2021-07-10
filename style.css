@@ -10,7 +10,7 @@
 body {
 	width: 100%;
 	min-height: 100vh;
-	background-image: url('./image/back4.png');
+	background-image: url('./back4.png');
 	background-repeat: no-repeat;
 	background-size: 100%;
 	margin: 0;
@@ -98,12 +98,12 @@ form label {
 }
 
 .app-download:nth-child(1) {
-	background-image: url('./image/apple-button.png');
+	background-image: url('./apple-button.png');
 
 }
 
 .app-download:nth-child(2) {
-	background-image: url('./image/googleplay-button.png');
+	background-image: url('./googleplay-button.png');
 }
 
 /* Media quares */
